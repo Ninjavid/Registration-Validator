@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sen&display=swap");
 
 html {
   box-sizing: border-box;
@@ -23,7 +23,7 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
-  box-shadow: 0 5px 30px 10px rgb(0 0 0 / 0.4);
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.4);
 }
 
 /* Form */
@@ -51,7 +51,7 @@ input {
   transition: all 0.3s;
 }
 
-.input:valid {
+input:valid {
   border: 1px solid green;
 }
 
